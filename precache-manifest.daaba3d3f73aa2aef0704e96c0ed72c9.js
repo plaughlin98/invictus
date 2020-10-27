@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3affb2c0db0f74e4b5d83a11284c52ea",
+    "revision": "807b69dd4aca12423506ad101e204536",
     "url": "/invictus/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/invictus/static/css/2.68584d97.chunk.css"
   },
   {
-    "revision": "7ec5b4362d03a63bd559",
+    "revision": "6de3cf86382613fa401b",
     "url": "/invictus/static/css/main.71733af8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/invictus/static/js/2.cf0b6282.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7ec5b4362d03a63bd559",
-    "url": "/invictus/static/js/main.30868c8e.chunk.js"
+    "revision": "6de3cf86382613fa401b",
+    "url": "/invictus/static/js/main.78504b69.chunk.js"
   },
   {
     "revision": "fbc245a09fc3b7b68f54",
