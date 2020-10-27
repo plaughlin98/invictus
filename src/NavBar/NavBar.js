@@ -10,13 +10,13 @@ export function NavBar() {
         <nav className={styles.navbar}>
         <ul className={styles['navbar-nav']}>
           <li className={styles.logo}>
-            <NavLink to="/" className={styles['nav-link']}>
+            <NavLink to="/invictus" className={styles['nav-link']}>
             <span className={styles['link-text']}>Invictus</span>
               <FontAwesomeIcon className={styles['icon-color']} icon={['fas', 'angle-double-right']} size="3x" />
             </ NavLink>
           </li>
           <li className={styles['nav-item']}>
-            <NavLink to="/" className={styles['nav-link']}>
+            <NavLink to="/invictus" className={styles['nav-link']}>
               <FontAwesomeIcon className={styles['icon-color']} icon={['fas', 'home']} size="3x" />
               <span className={styles['link-text']}>Home</span>
             </ NavLink>
