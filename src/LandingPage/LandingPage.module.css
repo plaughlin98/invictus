@@ -1,0 +1,219 @@
+:root {
+    font-size: 16px;
+    letter-spacing: .3rem;
+    font-family: 'Abel', sans-serif;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --transition-speed: 600ms
+  }
+
+
+  
+.site {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    margin-left: 5rem;
+    grid-template-areas: 
+    "title title title"
+    "main search search"
+    "main search search"
+    "project project project"
+    "footer footer footer";
+    height: auto;
+    grid-gap: .8rem;
+}
+
+
+.title {
+    grid-area: title;
+    height: 68vh;
+    background-image: url(../Assets/happydoctor2.jpg);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 5px;
+}
+
+.title h1 {
+    font-size: 7rem;
+    color: rgb(71, 145, 194);
+    text-shadow: 0px 1px 5px;
+    margin-bottom: 0;
+    letter-spacing: 1rem;
+
+}
+
+.title h2 {
+    font-size: 1.5rem;
+    color: rgb(71, 145, 194);
+    margin-bottom: 0;
+    letter-spacing: .1rem;
+
+}
+
+.search-bar {
+    grid-area: search;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+
+.footer {
+    color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    grid-area: footer;
+    background-color: #23232e;
+    height: auto;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 0;
+    border-left: solid 1px rgb(46, 46, 46);
+    
+}
+
+.sidebar {
+    display: flex;
+    border: 1px solid;
+    justify-content: space-evenly;
+    grid-area: sidebar;
+    justify-items: center;
+}
+
+.main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    box-shadow: 0px 1px 5px;
+}
+
+.navlink {
+    border: .5px solid #23232e;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    color: #23232e;
+    text-decoration: none;
+    
+}
+
+.navlink:hover {
+    background-color: #23232e;
+    color: white;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+
+.project {
+    grid-area: project;
+    display: grid;
+    grid-template-areas: "one two three";
+    height: 40vh;
+    justify-content: space-evenly;
+}
+
+.project > * {
+    border: 1px solid;
+    text-align: center;
+    width: 20vw;
+}
+
+.project-content {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    background-color: rgb(173, 190, 204);
+}
+
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+    .site {
+        margin-left: 0px;
+        grid-gap: 0;
+        margin-bottom: 5rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "title"
+        "search"
+        "main"
+        "sidebar"
+        "project"
+        "project"
+        "project"
+        "footer";
+    }
+    
+    .title {
+        height: 50vh;
+        border: 1px solid;
+        background-color: var(-);
+        background-image: url();
+        color: var(--bg-primary);
+    }
+
+    .title h1 {
+        font-size: 5rem;
+        color: rgb(59, 59, 94);
+    }
+    
+    .search-bar {
+        height: auto;    
+    }
+
+    .search-bar h1{
+        text-align: center;
+    }
+    
+    
+    .footer {
+        height: auto;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        border-bottom: solid 1px rgb(94, 93, 93);
+    }
+    
+    .sidebar {
+        height: 100vh;
+
+    }
+    
+    .main {
+        height: 100vh;
+
+    }
+    
+    .project {
+
+        height: 50vh;
+        grid-template-areas:
+        "one"
+        "two"
+        "three";
+    }
+    
+    .project > * {
+        height: auto;
+        width: 100vw;
+    }
+}

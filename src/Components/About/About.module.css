@@ -1,0 +1,8 @@
+.site {
+    display: grid;
+    margin-left: 5rem;
+    height: auto;
+    grid-gap: .8rem;
+    justify-content: center;
+    text-align: center;
+}
