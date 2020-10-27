@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/invictus/static/css/main.71733af8.chunk.css",
-    "main.js": "/invictus/static/js/main.66d717ba.chunk.js",
-    "main.js.map": "/invictus/static/js/main.66d717ba.chunk.js.map",
+    "main.js": "/invictus/static/js/main.30868c8e.chunk.js",
+    "main.js.map": "/invictus/static/js/main.30868c8e.chunk.js.map",
     "runtime-main.js": "/invictus/static/js/runtime-main.87f758e4.js",
     "runtime-main.js.map": "/invictus/static/js/runtime-main.87f758e4.js.map",
     "static/css/2.68584d97.chunk.css": "/invictus/static/css/2.68584d97.chunk.css",
     "static/js/2.cf0b6282.chunk.js": "/invictus/static/js/2.cf0b6282.chunk.js",
     "static/js/2.cf0b6282.chunk.js.map": "/invictus/static/js/2.cf0b6282.chunk.js.map",
     "index.html": "/invictus/index.html",
-    "precache-manifest.64bbf9b8c3191b00bb6d3152e5ed931c.js": "/invictus/precache-manifest.64bbf9b8c3191b00bb6d3152e5ed931c.js",
+    "precache-manifest.2868ced4c2be18abb4c9799c5331b0de.js": "/invictus/precache-manifest.2868ced4c2be18abb4c9799c5331b0de.js",
     "service-worker.js": "/invictus/service-worker.js",
     "static/css/2.68584d97.chunk.css.map": "/invictus/static/css/2.68584d97.chunk.css.map",
     "static/css/main.71733af8.chunk.css.map": "/invictus/static/css/main.71733af8.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.68584d97.chunk.css",
     "static/js/2.cf0b6282.chunk.js",
     "static/css/main.71733af8.chunk.css",
-    "static/js/main.66d717ba.chunk.js"
+    "static/js/main.30868c8e.chunk.js"
   ]
 }
