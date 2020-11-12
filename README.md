@@ -1,9 +1,16 @@
-Patient-Oriented Medical/Hospital Website (Work In Progress)
+<h1>Patient-Oriented Medical/Hospital Website <strong>(Work In Progress)</strong></h1>
 
-Website that is focused on patient view to ease pre / pres / post hospital visit planning, scheduling, reviewing, etc.
+<h3><em>Website that is focused on patient view to ease pre / pres / post hospital visit planning, scheduling, reviewing, etc.</em></h3>
 
-Created With:
-ReactJS, CSS, HTML
-Utilizing Hooks
-APIs:
-Google - Geocoding API, Maps Javascript API
+<h4>Created With:<h4>
+<ul>
+<li>ReactJS (Utilizing Router & Hooks)</li>
+<li>CSS</li>
+<li>HTML</li>
+<li>Google APIs:
+  <ul>
+    <li>Geocoding API</li>
+    <li>Maps Javascript API</li>
+  </ul>
+</li>
+</ul>
